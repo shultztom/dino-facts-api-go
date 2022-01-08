@@ -42,7 +42,7 @@ ingress:
     kubernetes.io/ingress.class: traefik
     cert-manager.io/cluster-issuer: letsencrypt-prod
   tls:
-    - secretName: dinosaur-facts-api-tls
+    - secretName: dino-facts-api-tls
       hosts:
         - dino-facts-api.shultzlab.com
   hosts:
