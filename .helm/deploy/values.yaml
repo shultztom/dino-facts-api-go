@@ -1,12 +1,12 @@
 replicaCount: 1
 
 image:
-  repository: shultzlab.jfrog.io/default-docker-virtual/shultztom/dino-facts-api-go
+  repository: us-central1-docker.pkg.dev/shultzlab/docker-gcp/dino-facts-api-go
   pullPolicy: Always
   tag: "latest"
 
 imagePullSecrets: 
-  - name: artifactory
+  - name: gcp-registry
 nameOverride: ""
 fullnameOverride: ""
 
